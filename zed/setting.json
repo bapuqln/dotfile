@@ -1,0 +1,252 @@
+{
+  "agent_ui_font_size": 15.0,
+  "buffer_line_height": "comfortable",
+  "agent_servers": {
+    "stakpak": {
+      "type": "registry",
+    },
+    "qoder": {
+      "type": "registry",
+    },
+    "pi-acp": {
+      "type": "registry",
+    },
+    "opencode": {
+      "type": "registry",
+    },
+    "nova": {
+      "type": "registry",
+    },
+    "mistral-vibe": {
+      "type": "registry",
+    },
+    "kilo": {
+      "type": "registry",
+    },
+    "junie": {
+      "type": "registry",
+    },
+    "goose": {
+      "type": "registry",
+    },
+    "github-copilot-cli": {
+      "type": "registry",
+    },
+    "gemini": {
+      "type": "registry",
+    },
+    "factory-droid": {
+      "type": "registry",
+    },
+    "dimcode": {
+      "type": "registry",
+    },
+    "deepagents": {
+      "type": "registry",
+    },
+    "corust-agent": {
+      "type": "registry",
+    },
+    "codex-acp": {
+      "type": "registry",
+    },
+    "codebuddy-code": {
+      "type": "registry",
+    },
+    "cline": {
+      "type": "registry",
+    },
+    "claude-acp": {
+      "type": "registry",
+    },
+    "autohand": {
+      "type": "registry",
+    },
+    "auggie": {
+      "type": "registry",
+    },
+    "amp-acp": {
+      "type": "registry",
+    },
+    "cursor": {
+      "type": "registry",
+    },
+    "kimi": {
+      "type": "registry",
+    },
+    "qwen-code": {
+      "type": "registry",
+    },
+  },
+  "edit_predictions": {
+    "provider": "zed",
+  },
+  "git_panel": {
+    "tree_view": true,
+  },
+  "scrollbar": {
+    "show": "never",
+  },
+  "cursor_shape": "block",
+  "ssh_connections": [
+    {
+      "host": "git.garena.com",
+      "projects": [],
+    },
+  ],
+  "context_servers": {
+    "github-activity-summarizer": {
+      "enabled": true,
+      "settings": {},
+    },
+    "mcp-server-github": {
+      "enabled": true,
+      "settings": {
+        "github_personal_access_token": "GITHUB_PERSONAL_ACCESS_TOKEN",
+      },
+    },
+  },
+  "icon_theme": {
+    "mode": "dark",
+    "light": "JetBrains Icons Dark",
+    "dark": "JetBrains Icons Dark",
+  },
+  "auto_update_extensions": {
+    "brainfuck": false,
+  },
+  "autosave": "on_focus_change",
+  "collaboration_panel": {
+    "dock": "left",
+  },
+  "agent": {
+    "show_turn_stats": true,
+    "play_sound_when_agent_done": true,
+    "tool_permissions": {
+      "default": "allow",
+    },
+    "default_profile": "ask",
+    "use_modifier_to_send": false,
+    "single_file_review": false,
+    "inline_assistant_model": {
+      "provider": "zed.dev",
+      "model": "claude-sonnet-4-thinking",
+    },
+    "message_editor_min_lines": 4,
+    "default_model": {
+      "enable_thinking": true,
+      "provider": "google",
+      "model": "gemini-2.5-flash",
+    },
+    "dock": "right",
+  },
+  "project_panel": {
+    "dock": "left",
+  },
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Everforest Dark Medium (material)",
+  },
+  "buffer_font_features": {
+    "calt": true,
+  },
+  "tab_bar": {
+    "show_nav_history_buttons": true,
+  },
+  "tabs": {
+    "file_icons": true,
+    "git_status": true,
+    "show_diagnostics": "all",
+  },
+  "inlay_hints": {
+    "enabled": true,
+  },
+  "autoscroll_on_clicks": true,
+  "close_on_file_delete": true,
+  "hide_mouse": "on_typing",
+  "minimap": {
+    "show": "always",
+    "thumb": "always",
+    "thumb_border": "left_open",
+    "current_line_highlight": "all",
+  },
+  "git": {
+    // 启用 Git 集成功能
+    // "enabled": true,
+    // 定期从远程仓库获取最新的更改
+    // "autoFetch": true,
+    // 设置自动获取的时间间隔为 300 秒（5分钟）
+    // "autoFetchInterval": 300,
+    // 当编辑器窗口获得焦点时自动获取最新的 Git 更改
+    // "autoFetchOnFocus": true,
+    // 当编辑器窗口切换时自动获取最新的 Git 更改
+    // "autoFetchOnWindowChange": true,
+    // 在构建项目时自动获取最新的 Git 更改
+    // "autoFetchOnBuild": true,
+    // 在编辑器中显示文件的 Git 状态
+    // "git_status": true,
+    // 在指定的构建事件（如构建、运行、调试）时自动获取最新的Git更改
+    // "autoFetchOnBuildEvents": ["build", "run", "debug"],
+    // 设置在构建事件发生后延迟 1500 毫秒（1.5秒）再进行自动获取
+    // "autoFetchOnBuildEventsDelay": 1500,
+    // 设置在构建后延迟 1500 毫秒（1.5秒）再进行自动获取
+    // "autoFetchOnBuildDelay": 1500,
+    // 在编辑器的行号栏（gutter）中显示 Git 状态，仅显示已跟踪文件的状态
+    "git_gutter": "tracked_files",
+    // ，在代码行旁边显示最后一次修改该行的提交信息
+    "inline_blame": {
+      "enabled": true,
+    },
+  },
+  "use_smartcase_search": true,
+  "ui_font_family": "Maple Mono NF CN",
+  "ui_font_size": 15.0,
+  "buffer_font_family": "Maple Mono Normal NF CN",
+  "buffer_font_size": 15.0,
+  "buffer_font_fallbacks": ["Maple Mono NF CN"],
+  "indent_guides": {
+    "coloring": "indent_aware",
+  },
+  "soft_wrap": "editor_width",
+  "terminal": {
+    "font_weight": 400.0,
+    "dock": "bottom",
+    "working_directory": "current_project_directory",
+    "font_family": "Maple Mono NF CN",
+  },
+  "languages": {
+    "Swift": {
+      "formatter": {
+        "external": {
+          "command": "swiftformat",
+          "arguments": [],
+        },
+      },
+      "format_on_save": "on",
+    },
+    "Objective-C": {
+      "language_servers": ["clangd"],
+      "formatter": "language_server",
+      "format_on_save": "on",
+      "tab_size": 4,
+    },
+  },
+  "lsp": {
+    "sourcekit-lsp": {
+      "binary": {
+        "path": "/usr/bin/sourcekit-lsp",
+      },
+    },
+    "clangd": {
+      "binary": {
+        "path": "/usr/bin/clangd",
+        "arguments": [
+          "--background-index",
+          "--clang-tidy",
+          "--completion-style=detailed",
+        ],
+      },
+    },
+  },
+}
+
